@@ -1,0 +1,13 @@
+Warning: Google App Engine Java 7 runtime is deprecated.
+Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
+Sep 06, 2018 7:50:13 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\Aryan Soni\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'E:\udacity_scholarship\Gradle_udacity\ud867-master\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+Sep 06, 2018 7:50:13 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+Sep 06, 2018 2:20:14 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (E:\udacity_scholarship\Gradle_udacity\ud867-master\FinalProject) is not equal to your 
+web application root (E:\udacity_scholarship\Gradle_udacity\ud867-master\FinalProject\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+Sep 06, 2018 2:20:16 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: jetty-6.1.x
