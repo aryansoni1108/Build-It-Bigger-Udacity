@@ -26,6 +26,7 @@ android {
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
+        flavorDimensions "default"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -34,6 +35,23 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        free {
+
+            applicationId "com.udacity.gradle.builditbigger.free"
+        }
+        paid {
+            applicationId "com.udacity.gradle.builditbigger.paid"
+        }
+    }
+    sourceSets {
+        paid{
+            java.srcDirs('src/paid/java')
+        }
+        free{
+            java.srcDirs('src/free/java')
         }
     }
 }
