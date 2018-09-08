@@ -8,8 +8,7 @@ public class MyBean {
     private String myData;
 
     public String getData() {
-        Joker joker=new Joker();
-        myData=joker.getJoke();
+
         return myData;
     }
 
